@@ -19,11 +19,3 @@ def test_between(upper_limit, lower_limit, actual):
     assert lower_limit <= actual <= upper_limit, "{0} is not between {1} and {2}".format(actual, lower_limit, upper_limit)
     
     
-
-# test_not_equal(14, 14)
-
-# test_is_in([1, 2, 3, 4, 5], 6)
-
-# test_not_in([1, 2, 3, 4], 3)
-
-# test_between(10, 1, 11)
